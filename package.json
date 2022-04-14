@@ -1,0 +1,20 @@
+{
+  "name": "test-npm",
+  "version": "1.0.0",
+  "description": "test npm",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Huỳnh Thiện Tài <bimtaiht@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
